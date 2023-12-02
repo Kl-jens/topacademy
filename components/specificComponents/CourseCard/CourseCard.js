@@ -14,7 +14,7 @@ export default class CourseCard extends Component {
 			<>
 				<div {...storyblokEditable(this.props.blok)} className={css["item"]}>
 					<div className={css["header"]}>
-						<span className={css["title"]}>{this.props.blok.title}</span>
+						<span className={css["title"]}>Course: {this.props.blok.title}</span>
 					</div>
 					<div className={css["shortdescription"]}>
 						{this.props.blok.tagline}
