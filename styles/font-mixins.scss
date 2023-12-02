@@ -6,8 +6,8 @@
 @mixin main-title-font($color: $color-default) {
   font-family: "Kalam", sans-serif !important;
   font-weight: 800 !important;
-  font-size: 38px !important;
-  line-height: 44px !important;
+  font-size: 40px !important;
+  line-height: 46px !important;
   color: $color;
 
   @media only screen and (min-width: 800px) {
@@ -24,8 +24,8 @@
 @mixin pretitle-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 27px;
   text-transform:uppercase;
   color: $color;
 
@@ -43,8 +43,8 @@
 @mixin title-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 800;
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 30px;
+  line-height: 36px;
   color: $color;
 
   @media only screen and (min-width: 800px) {
@@ -61,8 +61,8 @@
 @mixin small-title-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 22px;
+  line-height: 28px;
   color: $color;
 
   @media only screen and (min-width: 800px) {
@@ -80,8 +80,8 @@
 @mixin very-small-title-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 700;
-  font-size: 17px;
-  line-height: 28px;
+  font-size: 19px;
+  line-height: 30px;
   color: $color;
 
   @media only screen and (min-width: 800px) {
@@ -97,8 +97,8 @@
 @mixin posttitle-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 36px;
   color: $color;
 
   @media only screen and (min-width: 800px) {
@@ -115,8 +115,8 @@
 @mixin posttitle-font-small($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 27px;
   color: $color;
 
   @media only screen and (min-width: 800px) {
@@ -281,24 +281,24 @@
 @mixin card-title-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 800;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 26px;
+  line-height: 32px;
   color: $color;
 }
 
 @mixin card-title-font-large($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 800;
-  font-size: 35px;
-  line-height: 40px;
+  font-size: 37px;
+  line-height: 42px;
   color: $color;
 }
 
 @mixin card-title-font-small($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 800;
-  font-size: 18px;
-  line-height: 34px;
+  font-size: 20px;
+  line-height: 36px;
   color: $color;
 }
 
@@ -330,8 +330,8 @@
 @mixin card-tagline-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 32px;
   color: $color;
 }
 
