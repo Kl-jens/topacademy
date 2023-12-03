@@ -6,17 +6,17 @@
 @mixin main-title-font($color: $color-default) {
   font-family: "Kalam", sans-serif !important;
   font-weight: 800 !important;
-  font-size: 40px !important;
+  font-size: 42px !important;
   line-height: 46px !important;
   color: $color;
 
   @media only screen and (min-width: 800px) {
-    font-size: 46px !important;
+    font-size: 48px !important;
     line-height: 52px !important;
   }
 
   @media only screen and (min-width: 1250px) {
-    font-size: 54px !important;
+    font-size: 56px !important;
     line-height: 60px !important;
   }
 }
@@ -24,18 +24,18 @@
 @mixin pretitle-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 27px;
   text-transform:uppercase;
   color: $color;
 
   @media only screen and (min-width: 800px) {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 44px;
   }
 
   @media only screen and (min-width: 1250px) {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 52px;
   }
 }
@@ -43,17 +43,17 @@
 @mixin title-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 36px;
   color: $color;
 
   @media only screen and (min-width: 800px) {
-    font-size: 35px;
+    font-size: 37px;
     line-height: 44px;
   }
 
   @media only screen and (min-width: 1250px) {
-    font-size: 41px;
+    font-size: 43px;
     line-height: 52px;
   }
 }
@@ -61,17 +61,17 @@
 @mixin small-title-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 28px;
   color: $color;
 
   @media only screen and (min-width: 800px) {
-    font-size: 23px;
+    font-size: 25px;
     line-height: 30px;
   }
 
   @media only screen and (min-width: 1250px) {
-    font-size: 25px;
+    font-size: 27px;
     line-height: 33px;
   }
 }
@@ -80,34 +80,34 @@
 @mixin very-small-title-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 21px;
   line-height: 30px;
   color: $color;
 
   @media only screen and (min-width: 800px) {
-    font-size: 19px;
+    font-size: 21px;
     line-height: 30px;
   }
 
   @media only screen and (min-width: 1250px) {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
 @mixin posttitle-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 36px;
   color: $color;
 
   @media only screen and (min-width: 800px) {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 44px;
   }
 
   @media only screen and (min-width: 1250px) {
-    font-size: 26px;
+    font-size: 28px;
     line-height: 52px;
   }
 }
@@ -115,17 +115,17 @@
 @mixin posttitle-font-small($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 27px;
   color: $color;
 
   @media only screen and (min-width: 800px) {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
   }
 
   @media only screen and (min-width: 1250px) {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 36px;
   }
 }
@@ -281,7 +281,7 @@
 @mixin card-title-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 800;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 32px;
   color: $color;
 }
@@ -289,7 +289,7 @@
 @mixin card-title-font-large($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 800;
-  font-size: 37px;
+  font-size: 39px;
   line-height: 42px;
   color: $color;
 }
@@ -297,7 +297,7 @@
 @mixin card-title-font-small($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 36px;
   color: $color;
 }
@@ -330,7 +330,7 @@
 @mixin card-tagline-font($color: $color-default) {
   font-family: "Kalam", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 32px;
   color: $color;
 }
