@@ -9,10 +9,10 @@ export default function Page({ story, preview, socialtags, menu }) {
       "leftrightblock.colorcode",
       "course.colorcode",
       "person.colorcode",
-      "location.colorcode",
+      // "location.colorcode",
       "product.colorcode",
       "course.teachers",
-      "course.locations",
+      // "course.locations",
       "course.products",
       "list.elements"
     ]
