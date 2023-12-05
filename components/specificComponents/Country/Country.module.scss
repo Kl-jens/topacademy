@@ -2,7 +2,7 @@
 @import "../../../styles/colors.scss";
 
 
-.location-page {
+.country-page {
 
   &__main-content {
     display: grid;
@@ -19,22 +19,21 @@
 
 
 @media only screen and (min-width: 500px) {
- .location-page {
-  &__main-content {
+  .country-page {&__main-content {
     grid-template-columns: auto 552px auto;
     max-width: none;
   }
 
 
   &__short-description, &__description {
-    grid-column: 2 / 3;
-  }}
+    grid-column: 2 / 3;}
+}
 }
 
 
 
 @media only screen and (min-width: 850px) {
-  .location-page {
+  .country-page {
 
     &__main-content {
       grid-template-columns: auto 552px auto;
@@ -51,7 +50,7 @@
 
 
 @media only screen and (min-width: 1250px) {
-  .location-page {
+  .country-page {
 
     &__main-content {
       grid-template-columns: auto 729px auto;
@@ -66,7 +65,7 @@
 
 
 @media only screen and (min-width: 1400px) {
-  .location-page {
+  .country-page {
 
     &__main-content {
       grid-template-columns: auto 835px auto;
@@ -77,7 +76,7 @@
 
 
 @media only screen and (min-width: 1600px) {
-  .location-page {
+  .country-page {
 
     &__main-content {
       grid-template-columns: auto 920px auto;
@@ -206,5 +205,6 @@
 
     &--smaller {
       width: 820px;
-    }}
+    }
+  }
 }
