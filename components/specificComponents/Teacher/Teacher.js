@@ -10,7 +10,7 @@ export default class Teacher extends Component {
 	constructor(props) {
 		super(props);
 		this.props.blok.title = this.props.blok.firstname + " " + this.props.blok.lastname
-		this.props.blok.tagline = "Location: " + this.props.blok.location + "\nDate of birth: " + this.props.blok.dateofbirth;
+		this.props.blok.tagline = "Location: " + this.props.blok.location;
 	}
 
 	render() {
@@ -21,6 +21,12 @@ export default class Teacher extends Component {
 				<main>
 					<Hero blok={this.props.blok} contentTypeTag="course" />
 					<div className={css["teacher-page__main-content"]}>
+					<div id="teacher-page__short-description" key="teacher-page__short-description" className={css["teacher-page__short-description"]}>
+							<section className={css["rich-text-section--with-navigator"]}>
+								<h2 className={css["rich-text-section__title"]}>Date of Birth</h2>
+								<div className={css["rich-text-section__rich-text"]}>{RichTextToHTML({ document: this.props.blok.dateofbirth })}</div>
+							</section>
+						</div>
 						<div id="teacher-page__short-description" key="teacher-page__short-description" className={css["teacher-page__short-description"]}>
 							<section className={css["rich-text-section--with-navigator"]}>
 								<h2 className={css["rich-text-section__title"]}>My Life</h2>
