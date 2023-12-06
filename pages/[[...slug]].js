@@ -9,11 +9,11 @@ export default function Page({ story, preview, socialtags, menu }) {
       "leftrightblock.colorcode",
       "course.colorcode",
       "person.colorcode",
-      // "location.colorcode",
+      "destinations.colorcode",
       "product.colorcode",
       "course.teachers",
-      // "course.destinations",
-      "course.products",
+      "course.pricing",
+      "course.destinations",
       "list.elements"
     ]
   }, preview);
@@ -37,11 +37,11 @@ export async function getStaticProps({ params }) {
       "leftrightblock.colorcode",
       "course.colorcode",
       "person.colorcode",
-      "location.colorcode",
+      "destinations.colorcode",
       "product.colorcode",
       "course.teachers",
-    //  "course.destinations",
-      "course.products",
+      "course.pricing",
+      "course.destinations",
       "list.elements"
     ]
   };
