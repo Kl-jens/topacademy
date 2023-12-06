@@ -25,7 +25,7 @@ import ThreeCol from '../components/layoutComponents/ThreeCol/ThreeCol';
 import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCarousel';
 import Product from '../components/specificComponents/Product/Product';
 import Destination from '../components/specificComponents/Destination/Destination';
-
+import Pricing from '../components/specificComponents/Pricing/Pricing';
 
 const components = {
   person: Teacher,
