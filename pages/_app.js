@@ -23,7 +23,6 @@ import OneCol from '../components/layoutComponents/OneCol/OneCol';
 import TwoCol from '../components/layoutComponents/TwoCol/TwoCol';
 import ThreeCol from '../components/layoutComponents/ThreeCol/ThreeCol';
 import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCarousel';
-import Location from '../components/specificComponents/Location/Location';
 import Product from '../components/specificComponents/Product/Product';
 import Destination from '../components/specificComponents/Destination/Destination';
 
@@ -45,7 +44,6 @@ const components = {
   twocol: TwoCol,
   threecol: ThreeCol,
   imagecarousel: ImageCarousel,
-  location: Location,
   product: Product,
   destination: Destination
 };
