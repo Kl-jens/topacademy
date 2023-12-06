@@ -2,7 +2,7 @@
 @import "../../../styles/colors.scss";
 
 
-.country-page {
+.destination-page {
 
   &__main-content {
     display: grid;
@@ -19,7 +19,7 @@
 
 
 @media only screen and (min-width: 500px) {
-  .country-page {&__main-content {
+  .destination-page {&__main-content {
     grid-template-columns: auto 552px auto;
     max-width: none;
   }
@@ -33,7 +33,7 @@
 
 
 @media only screen and (min-width: 850px) {
-  .country-page {
+  .destination-page {
 
     &__main-content {
       grid-template-columns: auto 552px auto;
@@ -50,7 +50,7 @@
 
 
 @media only screen and (min-width: 1250px) {
-  .country-page {
+  .destination-page {
 
     &__main-content {
       grid-template-columns: auto 729px auto;
@@ -65,7 +65,7 @@
 
 
 @media only screen and (min-width: 1400px) {
-  .country-page {
+  .destination-page {
 
     &__main-content {
       grid-template-columns: auto 835px auto;
@@ -76,7 +76,7 @@
 
 
 @media only screen and (min-width: 1600px) {
-  .country-page {
+  .destination-page {
 
     &__main-content {
       grid-template-columns: auto 920px auto;

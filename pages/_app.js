@@ -25,7 +25,7 @@ import ThreeCol from '../components/layoutComponents/ThreeCol/ThreeCol';
 import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCarousel';
 import Location from '../components/specificComponents/Location/Location';
 import Product from '../components/specificComponents/Product/Product';
-import Country from '../components/specificComponents/Country/Country';
+import Destination from '../components/specificComponents/Destination/Destination';
 
 
 const components = {
@@ -47,7 +47,7 @@ const components = {
   imagecarousel: ImageCarousel,
   location: Location,
   product: Product,
-  country: Country
+  destination: Destination
 };
 
 storyblokInit({
