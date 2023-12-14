@@ -4,6 +4,7 @@ import Headermenu from "../../genericComponents/Headermenu/Headermenu";
 import Hero from "../../genericComponents/Hero/Hero";
 import { storyblokEditable, StoryblokComponent } from "@storyblok/react";
 import { RichTextToHTML } from "../../../functions/storyBlokRichTextRenderer";
+import moment from 'moment'; // If you're using moment.js
 
 export default class Teacher extends Component {
 
@@ -24,7 +25,7 @@ export default class Teacher extends Component {
 					<div id="teacher-page__short-description" key="teacher-page__short-description" className={css["teacher-page__short-description"]}>
 							<section className={css["rich-text-section--with-navigator"]}>
 								<h2 className={css["rich-text-section__title"]}>Date of Birth</h2>
-								<div className={css["rich-text-section__rich-text"]}>{RichTextToHTML({ document: this.props.blok.dateofbirth })}</div>
+								<div className={css["rich-text-section__rich-text"]}>{RichTextToHTML({ document: moment(this.props.blok.dateofbirth).format('YYYY-MM-DD') })}</div>
 							</section>
 						</div>
 						<div id="teacher-page__short-description" key="teacher-page__short-description" className={css["teacher-page__short-description"]}>
