@@ -22,7 +22,7 @@
 }
 
 @mixin pretitle-font($color: $color-default) {
-  font-family: "Kalam", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
@@ -41,7 +41,7 @@
 }
 
 @mixin title-font($color: $color-default) {
-  font-family: "Kalam", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 800;
   font-size: 32px;
   line-height: 36px;
@@ -59,7 +59,7 @@
 }
 
 @mixin small-title-font($color: $color-default) {
-  font-family: "Kalam", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -78,7 +78,7 @@
 
 
 @mixin very-small-title-font($color: $color-default) {
-  font-family: "Kalam", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 700;
   font-size: 21px;
   line-height: 30px;
@@ -95,7 +95,7 @@
 }
 
 @mixin posttitle-font($color: $color-default) {
-  font-family: "Kalam", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 36px;
@@ -113,7 +113,7 @@
 }
 
 @mixin posttitle-font-small($color: $color-default) {
-  font-family: "Kalam", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
