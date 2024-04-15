@@ -67,7 +67,7 @@ export default class HeadComponent extends Component {
 					(function(){
 					var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 					s1.async=true;
-					s1.src='https://embed.tawk.to/656a3c66ff45ca7d4785db35/1hgjfnsgb';
+					s1.src='https://embed.tawk.to/661d12491ec1082f04e269f6/1hrgouskg';
 					s1.charset='UTF-8';
 					s1.setAttribute('crossOrigin','*');
 					s0.parentNode.insertBefore(s1,s0);})();`,
