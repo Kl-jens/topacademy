@@ -26,6 +26,7 @@ import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCa
 import Product from '../components/specificComponents/Product/Product';
 import Destination from '../components/specificComponents/Destination/Destination';
 import Pricing from '../components/specificComponents/Pricing/Pricing';
+import Service from "../components/specificComponents/Service/Service";
 
 const components = {
   person: Teacher,
@@ -45,7 +46,8 @@ const components = {
   threecol: ThreeCol,
   imagecarousel: ImageCarousel,
   product: Product,
-  destination: Destination
+  destination: Destination,
+  service: Service
 };
 
 storyblokInit({
