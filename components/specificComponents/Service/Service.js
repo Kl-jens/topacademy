@@ -1,5 +1,5 @@
 ﻿import React, { Component } from "react";
-import css from "./service.module.scss";
+import css from "./Service.module.scss";
 import Headermenu from "../../genericComponents/Headermenu/Headermenu";
 import Hero from "../../genericComponents/Hero/Hero";
 import { storyblokEditable, StoryblokComponent } from "@storyblok/react";
