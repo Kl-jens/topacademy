@@ -2,7 +2,7 @@
 @import "../../../styles/colors.scss";
 
 
-.service-page {
+.model-page {
 
   &__main-content {
     display: grid;
@@ -19,21 +19,13 @@
 
 
 @media only screen and (min-width: 500px) {
-  .service-page {&__main-content {
-    grid-template-columns: auto 552px auto;
-    max-width: none;
-  }
-
-
-  &__short-description, &__description {
-    grid-column: 2 / 3;}
-}
+  .model-page {}
 }
 
 
 
 @media only screen and (min-width: 850px) {
-  .service-page {
+  .model-page {
 
     &__main-content {
       grid-template-columns: auto 552px auto;
@@ -50,7 +42,7 @@
 
 
 @media only screen and (min-width: 1250px) {
-  .service-page {
+  .model-page {
 
     &__main-content {
       grid-template-columns: auto 729px auto;
@@ -65,7 +57,7 @@
 
 
 @media only screen and (min-width: 1400px) {
-  .service-page {
+  .model-page {
 
     &__main-content {
       grid-template-columns: auto 835px auto;
@@ -76,7 +68,7 @@
 
 
 @media only screen and (min-width: 1600px) {
-  .service-page {
+  .model-page {
 
     &__main-content {
       grid-template-columns: auto 920px auto;

@@ -28,6 +28,7 @@ import Destination from '../components/specificComponents/Destination/Destinatio
 import Pricing from '../components/specificComponents/Pricing/Pricing';
 import Service from "../components/specificComponents/Service/Service";
 import Location from '../components/specificComponents/Location/Location';
+import Model from "../components/specificComponents/Model/Model";
 
 const components = {
   person: Teacher,
@@ -49,7 +50,8 @@ const components = {
   product: Product,
   destination: Destination,
   service: Service,
-  location: Location
+  location: Location,
+  model: Model
 };
 
 storyblokInit({
