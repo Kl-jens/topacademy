@@ -5,7 +5,7 @@ import Hero from "../../genericComponents/Hero/Hero";
 import { storyblokEditable, StoryblokComponent } from "@storyblok/react";
 import { RichTextToHTML } from "../../../functions/storyBlokRichTextRenderer";
 
-export default class service extends Component {
+export default class Service extends Component {
 
 	constructor(props) {
 		super(props);
